@@ -9,7 +9,7 @@ for(let i=2; i<num; i++){
     }
 
 }
-if(count == 0){
+if(count == 0 && num!==1){
     console.log("yes it is prime")
 }else{
     console.log("not a prime")
